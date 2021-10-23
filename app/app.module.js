@@ -1,0 +1,1 @@
+var exibindo = angular.module('exibindo', ['ngRoute']);
