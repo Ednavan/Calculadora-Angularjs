@@ -5,5 +5,13 @@ angular.module("exibindo").config(function($routeProvider){
     }).when('/SegundoValor',{
             controller: 'ctrlTelaSegundoValor',
             templateUrl: '../app/view/telaSegundoValor.html'
-    }).otherwise('/valorinicial')
+    }).when('/TerceiroValor',{
+        controller: 'ctrlTelaTerceiroValor',
+        templateUrl: '../app/view/telaTerceiroValor.html'
+    }).when('/visualizarResultado',{
+        controller: 'ctrlMostrarResultado',
+        templateUrl: '../app/view/telaResultado.html'
+    })
+    
+    .otherwise('/valorinicial')
 })
