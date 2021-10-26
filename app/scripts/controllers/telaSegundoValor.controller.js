@@ -1,5 +1,5 @@
 exibindo.controller('ctrlTelaSegundoValor',function($scope, $location){
-
+    $scope.inputTitulo1 = '1° valor:'
     $scope.recebeDados = function(globalNumeros){
         var verDados = $location.search()
         console.log('edit', verDados)

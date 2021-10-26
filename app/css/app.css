@@ -1,5 +1,5 @@
 
-#buttonAdd{
+#buttonFormat{
     padding: 10px;
     width: 100px;
     border-radius: 10%;
@@ -23,3 +23,35 @@
 	display: flex;
 	
 }
+
+
+
+/* configurações da tela do segundo valor */
+.btnSegundoValor{
+    margin-top: 280px ;
+    text-align: center;
+    
+    
+}
+
+#buttonSegundoValor{
+    padding: 10px;
+    width: 100px;
+    border-radius: 10%;
+}
+
+.buttonCancelar{
+    margin-right: 85px;
+}
+
+#inputInfo{
+    width: 95%;
+    margin-top: 0px;
+}
+
+#tituloSegundoValor{
+    margin-top: 200px
+}
+/* ------------------------------------------- */
+
+

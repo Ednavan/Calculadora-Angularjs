@@ -1,4 +1,9 @@
-<input ng-model="InfoValor1" type="text">
+<div id="tituloSegundoValor">
+<p>{{inputTitulo1}}</p>
+</div>
+<input id="inputInfo" ng-model="InfoValor1" type="text">
 
-<button  ng-click="voltartela()">Cancelar</button>
-<button ng-click="recebeDados()">Continuar</button>
+<div class="btnSegundoValor">
+<button  class="buttonCancelar" id="buttonSegundoValor" ng-click="voltartela()">Cancelar</button>
+<button  id="buttonSegundoValor" ng-click="recebeDados()">Continuar</button>
+</div>
