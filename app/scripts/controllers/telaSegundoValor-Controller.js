@@ -33,6 +33,10 @@ exibindo.controller('ctrlTelaSegundoValor',function($scope, $location){
          $location.path('/TerceiroValor')
     }
  
+
+    $scope.voltartela = function(){
+        $location.path('/valorinicial')
+    }
 })
 
 

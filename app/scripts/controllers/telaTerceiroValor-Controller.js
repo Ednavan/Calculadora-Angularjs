@@ -10,7 +10,8 @@ exibindo.controller('ctrlTelaTerceiroValor', function($scope, $location){
         }
         $location.search(informacoesValores)
         console.log(informacoesValores)
-       
+       var c = $location.search(informacoesValores)
+       console.log(c)
         $location.path('/visualizarResultado')
 
     }
