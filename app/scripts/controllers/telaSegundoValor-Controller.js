@@ -1,16 +1,32 @@
 exibindo.controller('ctrlTelaSegundoValor',function($scope, $location){
-    $scope.segundo= "tela 22222"
 
-    $scope.recebeDados=function(somando){
-       
+        
+    // $scope.recebeDados = function(globalNumeros){
+    //     var dadoSearch = $location.search()
+        
+    //     var infromacoesParaEnviar = {
+    //         v: dadoSearch.preparoDeCalculos,
+    //         dados: $scope.InfoValor1,
+    //     }
+    //     console.log(globalNumeros)
+        
+    //     console.log(infromacoesParaEnviar)
+    //     $location.search(infromacoesParaEnviar)
+
+    //     // $location.path('/TerceiroValor')
+    
+    $scope.recebeDados = function(){
+        var verDados = $location.search()
+        console.log('edit', verDados)
         var infromacoesParaEnviar = {
-            dados: $scope.InfoValor1,
+            valor: verDados.preparoDeCalculos
             
-        }
-
-        $location.search(infromacoesParaEnviar)
+                  
+              }
+           
         console.log(infromacoesParaEnviar)
-
-        $location.path('/TerceiroValor')
     }
+ 
 })
+
+
