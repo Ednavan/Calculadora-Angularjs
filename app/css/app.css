@@ -1,7 +1,8 @@
 
 #buttonAdd{
-    padding: 5px;
-
+    padding: 10px;
+    width: 100px;
+    border-radius: 10%;
 }
 
 .grow1 {
@@ -9,12 +10,11 @@
 }
 
 .item {
-    
 	margin: 5px;
-	background: tomato;
 	text-align: center;
 	font-size: 1.5em;
 }
+
 /* Flex Container */
 .container {
     margin-left: 150px;
