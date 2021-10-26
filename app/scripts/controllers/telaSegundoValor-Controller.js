@@ -15,16 +15,22 @@ exibindo.controller('ctrlTelaSegundoValor',function($scope, $location){
 
     //     // $location.path('/TerceiroValor')
     
-    $scope.recebeDados = function(){
+    $scope.recebeDados = function(globalNumeros){
         var verDados = $location.search()
         console.log('edit', verDados)
         var infromacoesParaEnviar = {
-            valor: verDados.preparoDeCalculos
+            valor: verDados.preparoDeCalculos,
+            dados: $scope.InfoValor1,
+            
             
                   
               }
+              
            
         console.log(infromacoesParaEnviar)
+        var b = $location.search(infromacoesParaEnviar)
+        console.log(b)
+         $location.path('/TerceiroValor')
     }
  
 })
