@@ -31,7 +31,6 @@
     margin-top: 280px ;
     text-align: center;
     
-    
 }
 
 #buttonSegundoValor{
@@ -47,6 +46,7 @@
 #inputInfo{
     width: 95%;
     margin-top: 0px;
+    height: 20px;
 }
 
 #tituloSegundoValor{
@@ -55,3 +55,33 @@
 /* ------------------------------------------- */
 
 
+/* configuracao tela terceiro valor */
+.btnTerceiroValor{
+    margin-top: 280px ;
+    text-align: center;
+}
+#buttonTerceiroValor{
+    padding: 10px;
+    width: 100px;
+    border-radius: 10%;
+}
+
+#tituloTerceiroValor{
+    margin-top: 200px
+}
+/* ------------------------------------------- */
+
+.btnContinuarResultado{
+    margin-top: 250px ;
+    text-align: center; 
+}
+
+#buttonResultado{
+    padding: 10px;
+    width: 100px;
+    border-radius: 10%;
+}
+
+#formularioInfor{
+    margin-top: 100px;
+}

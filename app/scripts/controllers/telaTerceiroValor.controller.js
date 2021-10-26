@@ -1,4 +1,5 @@
 exibindo.controller('ctrlTelaTerceiroValor', function($scope, $location){
+   $scope.inputTitulo2 = "2° valor:"
     console.log('tela terceiro valor')
     $scope.recebeDados = function(globalNumeros){
         var param = $location.search()
