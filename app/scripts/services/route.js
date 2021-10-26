@@ -12,4 +12,6 @@ angular.module("exibindo").config(function($routeProvider){
         controller: 'ctrlMostrarResultado',
         templateUrl: '../app/view/telaResultado.html'
     }).otherwise('/valorinicial')
+
+   
 })

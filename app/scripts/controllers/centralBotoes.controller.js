@@ -6,7 +6,7 @@ exibindo.controller('ctrlCentralBotoes',function($scope, $location){
             
         }
         console.log(recebendo)
-       var recebeParametro=  $location.search(recebendo)
+      $location.search(recebendo)
     
         $location.path('/SegundoValor' )
     }

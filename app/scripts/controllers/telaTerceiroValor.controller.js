@@ -15,4 +15,8 @@ exibindo.controller('ctrlTelaTerceiroValor', function($scope, $location){
         $location.path('/visualizarResultado')
 
     }
+
+    $scope.voltartela = function(){
+        $location.path('/valorinicial')
+    }
 })

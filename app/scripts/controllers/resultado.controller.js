@@ -36,8 +36,7 @@ exibindo.controller('ctrlMostrarResultado',function($scope,$location){
         $scope.segundovalor = dadoSearch.valor2
     $scope.imprimeResult = 'Resultado final'
        
-
-       
-
-   
+    $scope.voltartela = function(){
+        $location.path('/valorinicial')
+    }   
 })
